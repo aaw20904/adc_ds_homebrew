@@ -5,6 +5,7 @@ NOTE: This file was compiled by the Embarcadero DEV C++ IDE.
 I use for filtering only two functions:     filter128_v3(*auxPtrToBitStream, auxPtrToFilteredBuffer);   IIR	 for bitstream filtering (Fcut=Fbitstream/ 128, when OSR=64)
                                             float DigFil3K_1(invar) ;    IIR post-filtering    (Fcut=Fbitstream/ 128, when OSR=64)
                                             float DigFil(invar);     FIR high-pass filter (DC removing)
+Other filter functions is experimental - for example CIC filters and not used in main procedure
                                             
 */
 float DigFil3K_1(invar)
