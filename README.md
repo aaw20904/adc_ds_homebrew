@@ -1,1 +1,1 @@
-I made mw own delta-sigma ADC.In this repository are three parts - for a PC for processing bit stream into WAVE   (C), for the MCU (assembly) ,and write data through UART into PC (JS)
+I made mw own delta-sigma ADC.In this repository are three parts - for a PC for processing bit stream into WAVE   (C), for the MCU (assembly) ,and write data through UART into PC (JS).The ADC in action - https://www.youtube.com/watch?v=4CDDUC34EMs
